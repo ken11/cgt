@@ -40,7 +40,7 @@ var (
 	success = aurora.Green
 	fail    = aurora.Red
 	skipped = aurora.Brown
-	info    = aurora.Gray
+	info    = aurora.BrightBlack
 
 	c func(interface{}) aurora.Value
 )
